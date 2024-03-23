@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Banner from "../HomePageBanner/Banner";
+import JobsCategory from "../JobsCategory/JobsCategory";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="mb-16">
+      <Banner></Banner>
+      <JobsCategory></JobsCategory>
+      <FeaturedJobs></FeaturedJobs>
+    </div>
+  );
+};
 
-export default Home
+export default Home;

@@ -52,7 +52,9 @@ const Nav = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Star Applying</a>
+          <a className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white">
+            Apply Now
+          </a>
         </div>
       </div>
     </div>
